@@ -1,0 +1,147 @@
+[
+  {
+    "default": "false",
+    "fieldContent": "1",
+    "displayText": "Fancy store"
+  },
+  {
+    "default": "false",
+    "fieldContent": "2",
+    "displayText": "Semi Wholesaler"
+  },
+  {
+    "default": "false",
+    "fieldContent": "3",
+    "displayText": "Wholesaler"
+  },
+  {
+    "default": "false",
+    "fieldContent": "4",
+    "displayText": "Chemist & General store"
+  },
+  {
+    "default": "false",
+    "fieldContent": "5",
+    "displayText": "Dry fruits store"
+  },
+  {
+    "default": "false",
+    "fieldContent": "6",
+    "displayText": "Sweet shop"
+  },
+  {
+    "default": "false",
+    "fieldContent": "7",
+    "displayText": "Supermarket"
+  },
+  {
+    "default": "false",
+    "fieldContent": "8",
+    "displayText": "Hypermarket"
+  },
+  {
+    "default": "false",
+    "fieldContent": "9",
+    "displayText": "Departmental stores"
+  },
+  {
+    "default": "false",
+    "fieldContent": "10",
+    "displayText": "Cash & Carry"
+  },
+  {
+    "default": "false",
+    "fieldContent": "11",
+    "displayText": "Convenience store"
+  },
+  {
+    "default": "false",
+    "fieldContent": "12",
+    "displayText": "Speciality"
+  },
+  {
+    "default": "false",
+    "fieldContent": "13",
+    "displayText": "Chemists"
+  },
+  {
+    "default": "false",
+    "fieldContent": "14",
+    "displayText": "Milk shops"
+  },
+  {
+    "default": "false",
+    "fieldContent": "15",
+    "displayText": "Ice cream parlors"
+  },
+  {
+    "default": "false",
+    "fieldContent": "16",
+    "displayText": "Beauty parlor & Spa"
+  },
+  {
+    "default": "false",
+    "fieldContent": "17",
+    "displayText": "Cooperative store"
+  },
+  {
+    "default": "false",
+    "fieldContent": "18",
+    "displayText": "Canteen stores"
+  },
+  {
+    "default": "false",
+    "fieldContent": "19",
+    "displayText": "Tea-Coffee retailer"
+  },
+  {
+    "default": "false",
+    "fieldContent": "20",
+    "displayText": "Baby Specialty Stores"
+  },
+  {
+    "default": "false",
+    "fieldContent": "21",
+    "displayText": "Liquor Off Trade"
+  },
+  {
+    "default": "false",
+    "fieldContent": "22",
+    "displayText": "Clubs"
+  },
+  {
+    "default": "false",
+    "fieldContent": "23",
+    "displayText": "Pubs/Bars"
+  },
+  {
+    "default": "false",
+    "fieldContent": "24",
+    "displayText": "Restaurants"
+  },
+  {
+    "default": "false",
+    "fieldContent": "25",
+    "displayText": "Wine/Beer Store"
+  },
+  {
+    "default": "false",
+    "fieldContent": "26",
+    "displayText": "Speciality Restaurants"
+  },
+  {
+    "default": "false",
+    "fieldContent": "27",
+    "displayText": "Hotels"
+  },
+  {
+    "default": "false",
+    "fieldContent": "28",
+    "displayText": "5 Stars"
+  },
+  {
+    "default": "false",
+    "fieldContent": "29",
+    "displayText": "Microbreweries"
+  }
+]

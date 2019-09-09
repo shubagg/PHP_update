@@ -1,0 +1,39 @@
+{
+   
+   
+   
+   
+   "s_no":"Sr. No",
+   "=" : "Is equal to",
+   "!=" : "Is not equal to",
+   ">" : "Is greater than",
+   "<" : "Is less than",
+   ">=" : "Is greater than equal to", 
+   "<=" : "Is less than equal to",
+   "no_data_found" : "No Data Found",
+   "show" : "Show",
+   "search" : "Search",
+   "placeholder" : "Placeholder",
+   "n_10" : "10",
+   "n_25" : "25",
+   "n_50" : "50",
+   "n_100" : "100",
+   "records_per_page":"Record Per Page",
+   "showing_page":"Showing Page",
+   
+   "of":"of",
+   "loading":"Loading",
+   "processing":"Processing",
+   "make_query":"Make Query",
+   "refresh":"Refresh",
+   "and":"And",
+   "or":"Or",
+   "id":"Id",
+   "export":"Export",
+   "setting":"Setting",
+   "mid":"mid",
+   "smid":"smid"
+
+
+   
+}

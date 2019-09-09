@@ -1,0 +1,116 @@
+function train_request_send(id){
+	setloader();
+	$.ajax({
+		url: admin_ui_url+"rpaDashboard/ajax/dashboard_data.php?action=graphdata",
+		data:{"id":id},
+		type:"POST",
+		success:function suc(suc_data){				
+				var suc_data=JSON.parse(suc_data);
+				if(suc_data['success']=="true"){
+
+					if(suc_data['data'].length>0){
+
+							let actions_completed=suc_data['data'][0].action_completed;
+							let total_actions=suc_data['data'][0].total_actions;
+
+							let estimated_time=suc_data['data'][0].estimated_time;
+							let time_elapsed=suc_data['data'][0].time_elapsed;
+
+							let total_loops=suc_data['data'][0].total_loops;
+							let loops_completed=suc_data['data'][0].loop_action_count;
+
+							let task_count=0;
+
+							let action_size=suc_data['data'][0].actions_completed.length;
+							var done_task_html='<table class="table table-striped"><thead><tr><td>S.No</td><td>Task</td><td>Status</td></tr></thead><tbody>';
+
+							let failure_task_size=suc_data['data'][0].failure_details.length;
+							var failure_task_html='<table class="table table-striped"><thead><tr><td>S.No</td><td>Action Name</td><td>Failure Action</td><td>Message</td></tr></thead><tbody>';
+
+
+							if(task_count!=""){
+								/* For first tab.. task.. */
+									selectGaguge21 = new Donut(document.getElementById("select-21"));
+							    	selectGaguge21.maxValue = 1;
+		    						selectGaguge21.set(task_count);
+			    						
+							}
+							if(total_actions!="" && actions_completed!=""){
+								/* For Second tab.. action */
+			    					selectGaguge2 = new Donut(document.getElementById("select-2"));
+			    					selectGaguge2.maxValue = total_actions;
+			    					selectGaguge2.set(actions_completed);
+			    						
+							}
+							if(estimated_time!="" && time_elapsed!=""){
+								/* For third tab.. eta */
+									selectGaguge1 = new Gauge(document.getElementById("select-1"));
+			    					selectGaguge1.maxValue = estimated_time;
+			    					selectGaguge1.set(time_elapsed);
+										
+							}
+	    					if(total_loops!="" && loops_completed!=""){
+    							/* For Four tab.. totalloop */
+									selectGaguge3 = new Donut(document.getElementById("select-3"));
+			    					selectGaguge3.maxValue = total_loops;
+			    					selectGaguge3.set(total_loops);
+			    						
+	    					}
+							if(total_loops!="" && loops_completed!=""){
+			    				/* For Five tab.. current loop..*/
+			    					selectGaguge31 = new Donut(document.getElementById("select-31"));
+			    					selectGaguge31.maxValue = total_loops;
+			    					selectGaguge31.set(loops_completed);
+			    				
+			    			}
+			    			if(action_size>0){
+			    				let index=1;
+			    				for (var i = 0; i < action_size; i++) {
+			    					done_task_html +='<tr><td>'+index+'</td><td>'+suc_data['data'][0].actions_completed[i]['action_type']+'</td><td><span class="badge badge-primary">'+suc_data['data'][0].actions_completed[i]['action_handling_message']+'</span></td></tr>';
+			    					index++;
+			    				}
+			    			}else{
+			    				done_task_html +='<tr><td colspan="3">No Data</td></tr>';
+			    			}
+			    			
+			    			if(failure_task_size>0){
+			    				let index=1;
+			    				for (var i = 0; i < failure_task_size; i++) {
+			    					failure_task_html +='<tr><td>'+index+'</td><td>'+suc_data['data'][0].failure_details[i]['action_type']+'</td><td>'+suc_data['data'][0].failure_details[i]['action_handling']+'</td><td>'+suc_data['data'][0].failure_details[i]['action_handling_message']+'</td></tr>';
+			    					index++;
+			    				}
+			    			}else{
+			    				failure_task_html +='<tr><td colspan="4">No Data</td></tr>';
+			    			}
+
+			    			failure_task_html +='</tbody></table>';
+			    			done_task_html +='</tbody></table>';
+
+			    			$("#task-done-status").html(done_task_html);
+			    			$("#failure-done-status").html(failure_task_html);
+			    			unloading();
+					}
+				}else{
+					unloading();				
+				}
+		}
+	});
+}
+
+function get_tab_data(){
+	$.ajax({
+		url: admin_ui_url+"rpaDashboard/ajax/dashboard_userlist.php",
+		data:{},
+		type:"POST",
+		success:function suc(suc_data){	
+			var suc_data=JSON.parse(suc_data);
+			if(suc_data['data']!="" && suc_data['id']!=""){
+				$("#list-group-users").html(suc_data['data']);
+				$("#total_user_count").html(suc_data['userCount']);
+				train_request_send(suc_data['id']);
+			}
+			
+		}
+	});
+}
+get_tab_data(); //create tab

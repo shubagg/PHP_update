@@ -1,0 +1,10 @@
+<?php
+    $app->post('/manage_licenses_request','licenses_webservice_manage_licenses_request'); 
+    $app->post('/get_licenses_request','licenses_webservice_get_licenses_request');
+    $app->post('/status_update','licenses_webservice_status_update');   
+    $app->post('/company_active_status','licenses_webservice_company_active_status'); 
+    $app->post('/check_user_licenses','licenses_webservice_check_user_licenses');
+    $app->post('/add_customer_license_information','licenses_webservice_add_customer_license_information');
+    $app->post('/manage_po_request','licenses_webservice_manage_po_request');
+    $app->post('/verify_license_status','licenses_webservice_verify_license_status');
+?>

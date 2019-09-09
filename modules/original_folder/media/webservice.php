@@ -1,0 +1,9 @@
+<?php
+	$app->post('/manage_media','media_webservice_manage_media');
+    $app->post('/delete_media','media_webservice_delete_media');
+    $app->post('/get_media_by_amid','media_webservice_get_media_by_amid');
+    $app->post('/get_media_by_smid','media_webservice_get_media_by_smid');
+    $app->post('/get_media_by_type','media_webservice_get_media_by_type');
+    $app->post('/get_media_by_date','media_webservice_get_media_by_date');
+    $app->post('/get_media_by_id','media_webservice_get_media_by_id');    
+?>

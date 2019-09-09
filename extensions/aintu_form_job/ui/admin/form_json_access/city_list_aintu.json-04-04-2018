@@ -1,0 +1,27 @@
+[
+  {
+    "default": "false",
+    "fieldContent": "delhi",
+    "displayText": "Delhi"
+  },
+  {
+    "default": "false",
+    "fieldContent": "mumbai",
+    "displayText": "Mumbai"
+  },
+  {
+    "default": "false",
+    "fieldContent": "gurugram",
+    "displayText": "Gurugram"
+  },
+  {
+    "default": "false",
+    "fieldContent": "banglore",
+    "displayText": "Banglore"
+  },
+  {
+    "default": "false",
+    "fieldContent": "kolkata",
+    "displayText": "Kolkata"
+  }
+]

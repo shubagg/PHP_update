@@ -1,0 +1,61 @@
+ModuleName     Event     Timedate               Filename        ErrorString
+
+Template		Add		2015-04-09 09:57:34		create_temp.php		You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'a\',\'b\',\'2015-12-12\','1')' at line 1
+Template		Add		2015-04-09 09:57:50		create_temp.php		You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'a\',\'b\',\'2015-12-12\','1')' at line 1
+Template		Add		2015-04-09 10:02:44		create_temp.php		You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '\'a\',\'b\',\'2015-12-12\','1')' at line 1
+Trigger	delete	2015-04-11 11:33:25	view_schedule_email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Trigger	delete	2015-04-11 11:45:35	view_schedule_email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Trigger	delete	2015-04-11 11:52:19	view_schedule_email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Trigger	delete	2015-04-11 11:57:50	view_schedule_email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Trigger	Add	2015-04-11 11:58:54	email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'testing,email,0,0,0,0,0,user)' at line 1
+Trigger	Add	2015-04-11 12:03:05	email.php	Duplicate entry '21' for key 'PRIMARY'
+Trigger	Edit	2015-04-11 12:03:25	email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Trigger	Edit	2015-04-11 12:06:37	email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Trigger	Edit	2015-04-11 12:07:09	email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Trigger	Edit	2015-04-11 12:07:33	email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Trigger	Edit	2015-04-11 12:08:05	email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Action	Add	2015-04-11 03:57:02	action.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',,'','','','','',0)' at line 1
+Trigger	Edit	2015-04-15 11:55:02	email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ctg_grp=,crs_id=,test_grp=,test_id=,others='user' where id=157' at line 1
+Trigger	Edit	2015-04-15 01:50:33	email.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ctg_grp=,crs_id=,test_grp=,test_id=,others='user,parent' where id=148' at line 1
+Notification	Add	2015-05-05 10:05:50	ntfc.php	Unknown column 'reqtype' in 'field list'
+Notification	Add	2015-05-05 10:06:00	ntfc.php	Unknown column 'reqtype' in 'field list'
+Notification	Add	2015-05-05 10:06:54	ntfc.php	Unknown column 'reqtype' in 'field list'
+Notification	Add	2015-05-05 10:08:37	ntfc.php	Unknown column 'reqtype' in 'field list'
+Notification	Add	2015-05-05 10:09:08	ntfc.php	Unknown column 'reqtype' in 'field list'
+Notification	Add	2015-05-05 10:10:30	ntfc.php	Unknown column 'ms' in 'field list'
+Notification	update	2015-05-06 05:22:07	update_notification.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Notification	update	2015-05-06 05:23:47	update_notification.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Notification	Add	2015-05-27 01:06:04	ntfc.php	
+Notification	Add	2015-05-27 01:06:07	ntfc.php	
+Notification	Add	2015-05-27 01:06:25	ntfc.php	
+Notification	Add	2015-05-27 01:06:58	ntfc.php	
+Notification	Add	2015-05-27 01:08:01	ntfc.php	
+Notification	Add	2015-05-27 01:12:35	ntfc.php	
+Notification	Add	2015-05-27 01:12:42	ntfc.php	
+Notification	Add	2015-06-02 01:53:41	ntfc.php	Access denied for user 'pyksaas'@'localhost' (using password: NO)
+Notification	Add	2015-06-02 01:53:41	ntfc.php	Access denied for user 'pyksaas'@'localhost' (using password: NO)
+Notification	Add	2015-06-02 01:53:41	ntfc.php	Access denied for user 'pyksaas'@'localhost' (using password: NO)
+Notification	Add	2015-06-02 01:53:41	ntfc.php	Access denied for user 'pyksaas'@'localhost' (using password: NO)
+Notification	Add	2015-06-02 01:53:41	ntfc.php	Access denied for user 'pyksaas'@'localhost' (using password: NO)
+Notification	Add	2015-06-02 01:53:41	ntfc.php	Access denied for user 'pyksaas'@'localhost' (using password: NO)
+Notification	Add	2015-06-03 10:50:18	ntfc.php	Duplicate entry '2-2-2-10-0-0' for key 'ntfc'
+Notification	Add	2015-06-03 10:50:19	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:50:19	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:50:19	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:50:19	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:50:19	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:27	ntfc.php	Duplicate entry '2-2-2-10-0-0' for key 'ntfc'
+Notification	Add	2015-06-03 10:52:27	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:27	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:27	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:27	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:27	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:48	ntfc.php	Duplicate entry '2-2-2-10-0-0' for key 'ntfc'
+Notification	Add	2015-06-03 10:52:48	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:48	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:48	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:48	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 10:52:48	ntfc.php	Table 'pyksaas_pyk_43.notification_' doesn't exist
+Notification	Add	2015-06-03 12:26:00	ntfc.php	Duplicate entry '2-2-0-15-0-0' for key 'ntfc'
+Notification	Add	2015-06-03 12:32:39	ntfc.php	Duplicate entry '2-2-0-15-0-0' for key 'ntfc'
+Notification	update	2015-06-09 01:52:45	update_notification.php	You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1

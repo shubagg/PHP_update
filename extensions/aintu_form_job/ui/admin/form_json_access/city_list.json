@@ -1,0 +1,22 @@
+[
+  {
+    "default": "false",
+    "fieldContent": "1",
+    "displayText": "Delhi"
+  },
+  {
+    "default": "false",
+    "fieldContent": "2",
+    "displayText": "Gurgaon"
+  },
+  {
+    "default": "false",
+    "fieldContent": "3",
+    "displayText": "Banglore"
+  },
+  {
+    "default": "false",
+    "fieldContent": "4",
+    "displayText": "Kolkata"
+  }
+]

@@ -1,0 +1,15 @@
+{
+	"ok":"OK",
+    "delete":"Delete",
+    "submit":"Submit",
+    "cancel":"Cancel",
+    "close":"Close",
+    "update":"Update",
+    "success":"Success",
+    "unsuccess":"Unsuccess",
+    "notconfirm":"Unsuccess",
+    "confirm":"Confirm",
+    "error_message":"Error Message",
+    "select_text_box_error":"Please Select At Least One Check Box",
+    "discount":"Discount"
+}

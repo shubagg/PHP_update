@@ -1,0 +1,22 @@
+[
+  {
+    "default": "false",
+    "fieldContent": "1",
+    "displayText": "North Zone"
+  },
+  {
+    "default": "false",
+    "fieldContent": "2",
+    "displayText": "East Zone"
+  },
+  {
+    "default": "false",
+    "fieldContent": "3",
+    "displayText": "South Zone"
+  },
+  {
+    "default": "false",
+    "fieldContent": "4",
+    "displayText": "West Zone"
+  }
+]

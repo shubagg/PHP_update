@@ -1,0 +1,20 @@
+{
+	
+    
+    "clk_add_device" : "Click here to add device",
+    "add_device":"Add Device",
+    "device":"Device",
+    "devicenam":"Device Name",
+    "device_title":"Please enter device title",
+    "device_name":"Please enter device name",
+    "device_des":"Please enter device description",
+    "device_delete_unsuccess":"Device Not Deleted",
+    "device_delete":"Device Successfully Deleted",
+    "device_add":"Device Added Successful",
+    "device_not_add":"Device Not Added Success",
+    "device_update":"Device Update Successful",
+    "device_not_update":"Device Not Update Successful"
+    
+    
+    
+}

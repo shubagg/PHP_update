@@ -1,0 +1,154 @@
+.W-100{
+	width:100%;
+}
+
+.chat_graph_box1{
+	-webkit-box-shadow: 0 0 25px #ccc !important;
+    box-shadow: 0 0 25px #ccc !important;
+    background-color: #fff;
+    padding: 20px;
+}
+#loader_graph{
+    height: 250px;
+    position: relative;
+}
+#loader_graph img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.chat_graph_box{
+	-webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.14) !important;
+    background-color: #fff;
+    padding: 20px;
+	height: 320px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+	border-radius:6px;
+}
+#md-full-user .modal-header .close{
+	margin-top: -10px !important;
+}
+.media-list h5{
+overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 170px;
+}
+.chat_graph_box_top{
+	-webkit-box-shadow: 0 0 25px #ccc !important;
+    box-shadow: 0 0 25px #ccc !important;
+    background-color: #fff;
+    padding: 20px;
+}
+.mrg_top_3{
+	margin-top:30px;
+}
+.chat_graph_table {
+	background-color: #fff;
+	margin-top: 20px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+.padding-0{
+	padding: 0px;
+}
+.chat_graph_progress {
+	background-color: #fff;
+	padding-top: 20px;
+}
+.progress {
+    background-color: #ccc;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 0px;
+    overflow: visible;
+    position: relative;
+}
+.spanCanvas{
+    z-index: 999;
+    position: absolute;
+    top: 46%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+#firstCanvas,#secondCanvas,#fifthCanvas,#sixthCanvas,#firstCanvasTotal,#secondCanvasTotal,#fifthCanvasTotal,#sixthCanvasTotal {
+	font-size:22px;
+}
+.spanCanvasCurrent {
+    display: block;
+    text-align: center;
+	color: #999;
+    font-size: 14px;
+}
+
+.spanCanvasTime {
+    display: block;
+    text-align: center;
+}
+
+.spanCanvasTotal {
+    position: absolute;
+    bottom: -23px;
+    left: 125px;
+}
+
+.centerCanvas{
+    position: relative;
+}
+.spanLeftCanvas{
+    left: 20%;
+    top: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.spanrightCanvas{
+    right: 13%;
+    top: 86%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.statusDot {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    z-index: 999;
+    right: 10px;
+}
+
+.dotTextAlign {
+    position: relative;
+}
+
+.statusDotRed {
+    background-color: red;
+}
+
+.statusDotGreen {
+    background-color: green;
+}
+.ml-250{
+	margin-left: 250px;
+}
+
+
+@media only screen and (max-width: 1366px) {
+    .spanCanvas {
+        z-index: 999;
+        position: absolute;
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+		color:#3c4858;
+		font-size:25px;
+    }
+    .spanLeftCanvas {
+        left: 20%;
+        top: 86%;
+    }
+  }

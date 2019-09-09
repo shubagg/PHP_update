@@ -1,0 +1,13 @@
+{
+
+	"delete_status_success":"Option delete successfully",
+	"delete_status_unsuccess":"Option not delete successfully",
+	"option_not_success":"Option not insert successfully",
+	"option_success":"Option  insert successfully",
+	"option_status_success":"Option status Change successfully",
+	"option_status_unsuccess":"Option status not Change successfully",
+	"option":"Option",
+	"combine":"combinations",
+	"forbidden":"Forbidden"
+
+}

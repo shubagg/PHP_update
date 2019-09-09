@@ -1,0 +1,762 @@
+<?php
+$menus=array(
+	array(
+		"mid"=> "39",
+		"smid"=> "dashboard",
+		"stringId"=> "dashboard",
+		"icon"=> "fa-laptop",
+		"menuId"=> "3900",
+		"parentId"=> "0",
+		"urlTitle"=>""
+	),
+	array(
+		"mid"=> "39",
+		"smid"=> "dashboard",
+		"stringId"=> "view_dashboard",
+		"icon"=> "fa-laptop",
+		"menuId"=> "3901",
+		"parentId"=> "3900",
+		"urlTitle"=>"dashboard"
+	),
+	array(
+		"mid"=> "39",
+		"smid"=> "dashboard",
+		"stringId"=> "manage_dashboard",
+		"icon"=> "fa-laptop",
+		"menuId"=> "3902",
+		"parentId"=> "3900",
+		"urlTitle"=>"manage_dashboard"
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "usermanagement",
+		"icon"=> "fa-user",
+		"menuId"=> 100,
+		"parentId"=> "0",
+		"urlTitle"=>""
+		
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "userDetail",
+		"icon"=> "fa-users",
+		"menuId"=> 102,
+		"parentId"=> "100",
+		"urlTitle"=>"userDetail"
+		
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "accountmanagement",
+		"permissionRequired"=>"manage_password",
+		"icon"=> "fa-users",
+		"menuId"=> 103,
+		"parentId"=> "100",
+		"urlTitle"=>"changePassword"
+		
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "logQuery",
+		"icon"=> "fa-users",
+		"menuId"=> 104,
+		"parentId"=> "100",
+		"urlTitle"=>""
+		
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "loginLogs",
+		"icon"=> "fa-users",
+		"menuId"=> 105,
+		"parentId"=> "104",
+		"urlTitle"=>"loginDetail?mid=1&smid=1&type=1"
+		
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "departmentLogs",
+		"icon"=> "fa-users",
+		"menuId"=> 106,
+		"parentId"=> "104",
+		"urlTitle"=>"loginDetail?mid=1&smid=1&type=2"
+		
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "roleLogs",
+		"icon"=> "fa-users",
+		"menuId"=> 107,
+		"parentId"=> "104",
+		"urlTitle"=>"loginDetail?mid=1&smid=1&type=3"
+		
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "jobLogs",
+		"icon"=> "fa-users",
+		"menuId"=> 108,
+		"parentId"=> "104",
+		"urlTitle"=>"loginDetail?mid=5&smid=3&type=4"
+		
+	),
+	array(
+		"mid"=> "40",
+		"smid"=> "form",
+		"sm"=>'1',
+		"stringId"=> "form",
+		"icon"=> "fa-laptop",
+		"menuId"=> "2001",
+		"parentId"=> "0",
+		"urlTitle"=>"form"
+	),
+	array(
+		"mid"=> "40",
+		"smid"=> "form",
+		"sm"=>'1',
+		"stringId"=> "feedback",
+		"icon"=> "fa-laptop",
+		"menuId"=> "2001",
+		"parentId"=> "0",
+		"urlTitle"=>"feedback"
+	),
+	array(
+		"mid"=> "2",
+		"smid"=>"course1",
+		"stringId"=> "Team Learn",
+		"icon"=> "fa-pencil-square",
+		"menuId"=> '201',
+		"parentId"=> "0"
+		
+	),
+	array(
+		"mid"=> "2",
+		"smid"=>"course1",
+		"permissionExcept"=>"assigned",
+		"stringId"=> "manage_course",
+		"menuId"=> '202',
+		"parentId"=> "201",
+		"urlTitle"=>"courses"
+	),
+	array(
+		"mid"=> "2",
+		"smid"=>"course1",
+		"stringId"=> "my_course",
+		"menuId"=> '202',
+		"parentId"=> "201",
+		"urlTitle"=>"my_course"
+	),
+	array(
+		"mid"=> "3",
+		"smid"=>"notification1",
+		"stringId"=> "notification",
+		"icon"=> "fa-bell",
+		"menuId"=> 300,
+		"parentId"=> "0",
+		"urlTitle"=>""
+		
+	),
+	array(
+		"mid"=> "3",
+		"smid"=>"notification1",
+		"stringId"=> "notification_manage_account",
+		"icon"=> "fa-bell",
+		"menuId"=> 301,
+		"parentId"=> "300",
+		"urlTitle"=>"manageAccount"
+		
+	),
+	array(
+		"mid"=> "3",
+		"smid"=>"notification1",
+		"stringId"=> "notification_temp",
+		"icon"=> "fa-bell",
+		"menuId"=> 302,
+		"parentId"=> "300",
+		"urlTitle"=>"manageTemplate"
+		
+	),
+	array(
+		"mid"=> "3",
+		"smid"=>"notification1",
+		"stringId"=> "notification_triger",
+		"icon"=> "fa-bell",
+		"menuId"=> 303,
+		"parentId"=> "300",
+		"urlTitle"=>"manageTrigger"
+		
+	),
+	array(
+		"mid"=> "3",
+		"smid"=>"notification1",
+		"stringId"=> "cronStatus",
+		"icon"=> "fa-bell",
+		"menuId"=> 304,
+		"parentId"=> "300",
+		"urlTitle"=>"cronStatus"
+		
+	),
+	array(
+		"mid"=> "24",
+		"stringId"=> "Cms",
+		"icon"=> "fa fa-briefcase",
+		"menuId"=> 16,
+		"parentId"=> "0"
+	),
+	array(
+		"mid"=> "16","smid"=>"product1",
+		"smid"=> "2",
+		"stringId"=> "venue_request",
+		"menuId"=> 11,
+		"parentId"=> "8"
+	),
+	array(
+		"mid"=> "16","smid"=>"product1",
+		"smid"=> "2",
+		"stringId"=> "event_ticket_book",
+		"menuId"=> 11,
+		"parentId"=> "8"
+	),
+	array(
+		"mid"=> "24",
+		"smid"=> "2",
+		"stringId"=> "about Us",
+		"menuId"=> 11,
+		"parentId"=> "16",
+		"url"=> "cms?slug=about"
+	),
+	array(
+		"mid"=> "24",
+		"smid"=> "2",
+		"stringId"=> "Terms",
+		"menuId"=> 11,
+		"parentId"=> "16",
+		"url"=> "cms?slug=terms"
+	),
+	array(
+		"mid"=> "24",
+		"smid"=> "2",
+		"stringId"=> "banner",
+		"menuId"=> 11,
+		"parentId"=> "16"
+	),
+	array(
+		"mid"=> "24",
+		"smid"=> "2",
+		"stringId"=> "FAQ / Help",
+		"menuId"=> 11,
+		"parentId"=> "16",
+		"url"=> "cms?slug=FAQ"
+	),
+	array(
+		"mid"=> "24",
+		"smid"=> "2",
+		"stringId"=> "Benefits",
+		"menuId"=> 11,
+		"parentId"=> "16",
+		"url"=> "cms/benefits"
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "ui_component",
+		"icon"=> "fa-users",
+		"menuId"=> 12,
+		"parentId"=> "0"
+	),
+	array(
+		"mid"=> "1",
+		"smid"=>"users",
+		"stringId"=> "button",
+		"icon"=> "fa-users",
+		"menuId"=> 13,
+		"parentId"=> "12"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "E-commerce",
+		"icon"=> "fa-shopping-cart",
+		"menuId"=> 1600,
+		"parentId"=> "0",
+		"urlTitle"=>""
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "product",
+		"icon"=> "fa-shopping-cart",
+		"menuId"=> 1601,
+		"parentId"=> "1600",
+		"urlTitle"=>""
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "All Products",
+		"icon"=> "fa-shopping-cart",
+		"menuId"=> 1501,
+		"parentId"=> "1601",
+		"urlTitle"=>"products"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Features Group",
+		"icon"=> "fa-shopping-cart",
+		"menuId"=> 1502,
+		"parentId"=> "1601",
+		"urlTitle"=>"feature_group"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "All features",
+		"icon"=> "fa-shopping-cart",
+		"menuId"=> 1503,
+		"parentId"=> "1601",
+		"urlTitle"=>"all_feature"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Options",
+		"icon"=> "fa-shopping-cart",
+		"menuId"=> 1504,
+		"parentId"=> "1601",
+		"urlTitle"=>"options"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Featured Product",
+		"icon"=> "fa-shopping-cart",
+		"menuId"=> 1505,
+		"parentId"=> "1601",
+		"urlTitle"=>"featured_product"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "product_categories",
+		"icon"=> "fa-th-list menu_zm",
+		"menuId"=> 17,
+		"parentId"=> "1600", 
+		"urlTitle"=>"product_categories"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Gift Cards",
+		"icon"=> "fa-gift",
+		"menuId"=> 1613,
+		"parentId"=> "1600",
+		"urlTitle"=>"gift_card"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "brands",
+		"icon"=> "fa-tag",
+		"menuId"=> 1614,
+		"parentId"=> "1600",
+		"urlTitle"=>"brands"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "orders",
+		"icon"=> "fa-briefcase",
+		"menuId"=> 1602,
+		"parentId"=> "1600",
+		"urlTitle"=>""
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Current Orders",
+		"icon"=> "fa-briefcase",
+		"menuId"=> 1602.1,
+		"parentId"=> "1602",
+		"urlTitle"=>"current_order"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Cancel Orders",
+		"icon"=> "fa-briefcase",
+		"menuId"=> 1602.2,
+		"parentId"=> "1602",
+		"urlTitle"=>"cancel_order"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Shipped Orders",
+		"icon"=> "fa-briefcase",
+		"menuId"=> 1602.3,
+		"parentId"=> "1602",
+		"urlTitle"=>"shipped_order"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Failed Order",
+		"icon"=> "fa-briefcase",
+		"menuId"=> 1602.4,
+		"parentId"=> "1602",
+		"urlTitle"=>"failed_order"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Track Order",
+		"icon"=> "fa-briefcase",
+		"menuId"=> 1602.5,
+		"parentId"=> "1602",
+		"urlTitle"=>"track_order"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Return Products",
+		"icon"=> "fa-briefcase",
+		"menuId"=> 1602.6,
+		"parentId"=> "1602",
+		"urlTitle"=>"return_products"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Coupon List",
+		"icon"=> "fa-cut",
+		"menuId"=>1608,
+		"parentId"=> "1600",
+		"urlTitle"=>"coupons"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Stockist",
+		"icon"=> "fa-list-alt",
+		"menuId"=>1609,
+		"parentId"=> "1600",
+		"urlTitle"=>"stockist"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Shipping",
+		"icon"=> "fa-list-alt",
+		"menuId"=>1610,
+		"parentId"=> "1600",
+		"urlTitle"=>"shipping"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Enquiry",
+		"icon"=> "fa-mobile",
+		"menuId"=>1610,
+		"parentId"=> "1600",
+		"urlTitle"=>"list"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Banner",
+		"icon"=> "fa-picture-o",
+		"menuId"=>1611,
+		"parentId"=> "1600",
+		"urlTitle"=>""
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Banners",
+		"icon"=> "fa-picture-o",
+		"menuId"=>16111,
+		"parentId"=> "1611",
+		"urlTitle"=>"banner"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Banner info",
+		"icon"=> "fa-picture-o",
+		"menuId"=>16112,
+		"parentId"=> "1611",
+		"urlTitle"=>"banner_info"
+	),
+	array(
+		"mid"=> "16",
+		"smid"=>"product1",
+		"stringId"=> "Subscribe",
+		"icon"=> "fa-mobile",
+		"menuId"=>1612,
+		"parentId"=> "1600",
+		"urlTitle"=>"subscribe"
+	),
+	array(
+		"mid"=> "5",
+		"smid"=>'job1',
+		"stringId"=> "Job",
+		"icon"=> "fa-briefcase",
+		"menuId"=> 19,
+		"parentId"=> "0",
+		"urlTitle"=>"job?job=1&type=job"
+	),
+	array(
+		"mid"=> "22",
+		"smid"=> "dailyAttendance",
+		"stringId"=> "attendance",
+		"icon"=> "fa-check-circle",
+		"menuId"=> "22001",
+		"parentId"=> "0",
+		"urlTitle"=>""
+
+	),
+	array(
+		"mid"=> "22",
+		"smid"=> "dailyAttendance",
+		"stringId"=> "view_attendance",
+		"icon"=> "fa-calendar-check-o",
+		"menuId"=> 22002,
+		"parentId"=> "22001",
+		"urlTitle"=>"controller/index.php?type=attendance"
+	),
+	
+	
+	array(
+		"mid"=> "22",
+		"smid"=> "dailyAttendance",
+		"stringId"=> "attendance_setting",
+		"icon"=> "fa-check-circle",
+		"menuId"=> 22003,
+		"parentId"=> "22001",
+		"urlTitle"=>"attendance_setting"
+	),
+	array(
+		"mid"=> "38",
+		"smid"=> "calendar",
+		"stringId"=> "manage_calendar",
+		"icon"=> "fa-calendar-check-o",
+		"menuId"=> "38001",
+		"parentId"=> "0",
+		"urlTitle"=>"manage_calendar"
+	),
+        array(
+		"mid"=> "32",
+		"stringId"=> "project",
+		"icon"=> "fa-tasks",
+		"menuId"=> "32001",
+		"parentId"=> "0",
+		"urlTitle"=>"project"
+	),
+        array(
+		"mid"=> "5",
+                "smid"=> "ticket",
+		"stringId"=> "team desk",
+		"icon"=> "fa-users",
+		"menuId"=> "50301",
+		"parentId"=> "0",
+                "urlTitle"=>""
+	),
+        array(
+		"mid"=> "5",
+                "smid"=> "ticket",
+		"stringId"=> "overview",
+		"icon"=> "fa-eye",
+		"menuId"=> "50302",
+		"parentId"=> "50301",
+		"urlTitle"=>"ticket_tool"
+	),
+        array(
+		"mid"=> "5",
+                "smid"=> "ticket",
+		"stringId"=> "my tickets",
+		"icon"=> "fa-ticket",
+		"menuId"=> "50303",
+		"parentId"=> "50301",
+		"urlTitle"=>"ticket_tool/my_tickets"
+	),
+        array(
+		"mid"=> "37",
+                "smid"=> "slm",
+		"stringId"=> "SLM",
+		"icon"=> "fa-tasks",
+		"menuId"=> "37301",
+		"parentId"=> "0",
+		"urlTitle"=>"slm"
+        ),
+	array(
+		"mid"=> "6",
+		"smid"=>"forum1",
+		"stringId"=> "Forum",
+		"icon"=> "fa-commenting-o",
+		"menuId"=> "6_1",
+		"parentId"=> "0",
+		"urlTitle"=>"forum"
+	),
+	array(
+		"mid"=> "6",
+		"smid"=>"forum1",
+		"stringId"=> "Manage Forum",
+		"icon"=> "fa-question-circle",
+		"menuId"=> "6_2",
+		"parentId"=> "0",
+		"urlTitle"=>""
+	),
+	array(
+		"mid"=> "6",
+		"smid"=>"forum1",
+		"stringId"=> "Forum 1",
+		"icon"=> "fa-question-circle",
+		"menuId"=> "6_2_1",
+		"parentId"=> "6_2",
+		"urlTitle"=>"manageform?forum=1"
+	),
+	array(
+		"mid"=> "6",
+		"smid"=>"forum2",
+		"stringId"=> "Forum 2",
+		"icon"=> "fa-question-circle",
+		"menuId"=> "6_2_1",
+		"parentId"=> "6_2",
+		"urlTitle"=>"manageform?forum=2"
+	),
+	array(
+		"mid"=> "7",
+		"smid"=>"blog1",
+		"stringId"=> "Blog",
+		"icon"=> "fa-rss",
+		"menuId"=> "7_1",
+		"parentId"=> "0",
+		"urlTitle"=>"blog"
+	),
+	array(
+		"mid"=> "7",
+		"smid"=>"blog1",
+		"stringId"=> "Manage Blog",
+		"icon"=> "fa-rss-square",
+		"menuId"=> "7_2",
+		"parentId"=> "0",
+		"urlTitle"=>""
+	),
+	array(
+		"mid"=> "7",
+		"smid"=>"blog1",
+		"stringId"=> "Blog 1",
+		"icon"=> "fa-rss-square",
+		"menuId"=> "7_2_1",
+		"parentId"=> "7_2",
+		"urlTitle"=>"manageblog?blog=1"
+	),
+	array(
+		"mid"=> "7",
+		"smid"=>"blog2",
+		"stringId"=> "Blog 2",
+		"icon"=> "fa-rss-square",
+		"menuId"=> "7_2_2",
+		"parentId"=> "7_2",
+		"urlTitle"=>"manageblog?blog=2"
+	),
+	array(
+		"mid"=> "35",
+		"stringId"=> "chat",
+		"icon"=> "fa-rss-square",
+		"menuId"=> "3500",
+		"parentId"=> "0",
+		"urlTitle"=>"chat",
+		"attr"=>"target"
+	),
+	array(
+		"mid"=> "41",
+		"smid"=>"inventory",
+		"permissionRequired"=>"warehouse",
+		"stringId"=> "warehouse",
+		"icon"=> "fa-archive",
+		"menuId"=> "1610",
+		"parentId"=> "0",
+		"urlTitle"=>"warehouse"
+	),
+	array(
+		"mid"=> "41",
+		"smid"=>"inventory",
+		"permissionExcept"=>"assigned",
+		"stringId"=> "inventory",
+		"icon"=> "fa-cubes",
+		"menuId"=> "1610",
+		"parentId"=> "0",
+		"urlTitle"=>"manage_inventry"
+	),
+	array(
+		"mid"=> "41",
+		"smid"=>"inventory",
+		"permissionRequired"=>"assigned",
+		"stringId"=> "user_inventory",
+		"icon"=> "fa-cubes",
+		"menuId"=> "1610",
+		"parentId"=> "0",
+		"urlTitle"=>"user_inventry"
+	),
+	array(
+		"mid"=> "28",
+		"smid"=> "report",
+		"stringId"=> "report",
+		"icon"=> "fa-laptop",
+		"menuId"=> "2801",
+		"parentId"=> "0",
+		"urlTitle"=>"report"
+	),
+	
+	array(
+		"mid"=> "42",
+		"smid"=> "approvalprocess",
+		"stringId"=> "approvalprocess",
+		"icon"=> "fa-check-circle",
+		"menuId"=> "42000",
+		"parentId"=> "0",
+		"urlTitle"=>""
+
+	),
+	array(
+		"mid"=> "42",
+		"smid"=> "approvalprocess",
+		"stringId"=> "pendingApproval",
+		"icon"=> "fa-calendar-check-o",
+		"menuId"=> "42001",
+		"parentId"=> "42000",
+		"urlTitle"=>"controller/index.php?type=pendingApproval"
+	),
+	array(
+		"mid"=> "42",
+		"smid"=> "approvalprocess",
+		"stringId"=> "rejectedApproval",
+		"icon"=> "fa-calendar-check-o",
+		"menuId"=> "42002",
+		"parentId"=> "42000",
+		"urlTitle"=>"controller/index.php?type=rejectedApproval"
+	),
+	array(
+		"mid"=> "42",
+		"smid"=> "approvalprocess",
+		"stringId"=> "approvedApproval",
+		"icon"=> "fa-calendar-check-o",
+		"menuId"=> "42003",
+		"parentId"=> "42000",
+		"urlTitle"=>"controller/index.php?type=approvedApproval"
+	)
+	
+	
+	
+);
+?>

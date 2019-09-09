@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+    font-size: 18px;
+	font-style: normal;
+}
+
+
+#buttons-icon .tooltip-area a:hover i:before{
+	color:#fff;
+}
+
+
+#cm-menu-scroller .flaticon-software:before, .flaticon-software:before{
+	color:#546a79;
+}
+#cm-menu-scroller .flaticon-spreadsheet:before, .flaticon-spreadsheet:before{
+	color:#237447;
+}
+#cm-menu-scroller .flaticon-transport:before, .flaticon-transport:before{
+	color:#cc4c4d;
+}
+#cm-menu-scroller .flaticon-clock:before, .flaticon-clock:before{
+	color:#4f5d73;
+}
+#cm-menu-scroller .flaticon-list:before, .flaticon-list:before{
+	color:#aaaeb9;
+}
+#cm-menu-scroller .flaticon-software-1:before, .flaticon-software-1:before{
+	color:#333d47;  
+}
+#cm-menu-scroller .flaticon-folder:before, .flaticon-folder:before{
+	color:#efce4a;
+}
+#cm-menu-scroller .flaticon-exit:before, .flaticon-exit:before{
+	color:#d7b008;
+}
+#cm-menu-scroller .flaticon-mouse:before, .flaticon-mouse:before{
+	color:#c3c6c8;
+}
+#cm-menu-scroller .flaticon-keyboard:before, .flaticon-keyboard:before{
+	color:#596269;
+}#cm-menu-scroller .flaticon-dry:before, .flaticon-dry:before{
+	color:#67bef4;
+}#cm-menu-scroller .flaticon-refresh:before, .flaticon-refresh:before{
+	color:#f76565;
+}#cm-menu-scroller .flaticon-dna:before, .flaticon-dna:before{
+	color:#7383bf;
+}
+#cm-menu-scroller .flaticon-web:before, .flaticon-web:before{
+	color:#8094c7;
+}
+#cm-menu-scroller .flaticon-variable:before, .flaticon-variable:before{
+	color:#0079d3;
+}
+#cm-menu-scroller .flaticon-paper:before, .flaticon-paper:before{
+	color:#d0caae;
+}
+#cm-menu-scroller .flaticon-search:before, .flaticon-search:before {
+	color:#b7a782;
+}
+#cm-menu-scroller .flaticon-burger:before, .flaticon-burger:before{
+	color:#25a34e;
+}
+
+.all-buttons .flaticon-radio:before{
+	color:#e40000;
+}
+.all-buttons .flaticon-radio-1:before{
+	color:#e40000;
+}
+.all-buttons .flaticon-play:before{
+	color:#4b546c;
+}
+
+.all-buttons .flaticon-upload:before{
+	color:#7282c2;
+}
+.all-buttons .flaticon-browser:before{
+	color:#f26651;
+}
+
+
+.flaticon-software:before { content: "\f100"; }
+.flaticon-transport:before { content: "\f101"; }
+.flaticon-list:before { content: "\f102"; }
+.flaticon-software-1:before { content: "\f103"; }
+.flaticon-folder:before { content: "\f104"; }
+.flaticon-exit:before { content: "\f105"; }
+.flaticon-mouse:before { content: "\f106"; }
+.flaticon-keyboard:before { content: "\f107"; }
+.flaticon-dry:before { content: "\f108"; }
+.flaticon-refresh:before { content: "\f109"; }
+.flaticon-dna:before { content: "\f10a"; }
+.flaticon-web:before { content: "\f10b"; }
+.flaticon-variable:before { content: "\f10c"; }
+.flaticon-paper:before { content: "\f10d"; }
+.flaticon-search:before { content: "\f10e"; }
+.flaticon-burger:before { content: "\f10f"; }
+.flaticon-radio:before { content: "\f110"; }
+.flaticon-radio-1:before { content: "\f111"; }
+.flaticon-vinyl:before { content: "\f112"; }
+.flaticon-upload:before { content: "\f113"; }
+.flaticon-browser:before { content: "\f114"; }
+.flaticon-play:before { content: "\f115"; }
+.flaticon-123:before { content: "\f116"; }
+.flaticon-anonymous:before { content: "\f117"; }
+.flaticon-plus:before { content: "\f118"; }
+.flaticon-clock:before { content: "\f119"; }
+.flaticon-window:before { content: "\f11a"; }
+.flaticon-quality:before { content: "\f11b"; }
+.flaticon-shrink:before { content: "\f11c"; }
+.flaticon-expand:before { content: "\f11d"; }
+.flaticon-close:before { content: "\f11e"; }
+.flaticon-sheet:before { content: "\f11f"; }
+.flaticon-paper-1:before { content: "\f120"; }
+.flaticon-download:before { content: "\f121"; }
+.flaticon-setup:before { content: "\f122"; }
+.flaticon-sheet-1:before { content: "\f123"; }
+.flaticon-radar:before { content: "\f124"; }
+.flaticon-graphic:before { content: "\f125"; }
+.flaticon-data:before { content: "\f126"; }
+.flaticon-photo:before { content: "\f127"; }
+.flaticon-terminal:before { content: "\f128"; }
+.flaticon-check:before { content: "\f129"; }
+.flaticon-document:before { content: "\f12a"; }
+.flaticon-document-1:before { content: "\f12b"; }
+.flaticon-paper-2:before { content: "\f12c"; }
+.flaticon-copy:before { content: "\f12d"; }
+.flaticon-close-1:before { content: "\f12e"; }
+.flaticon-ebook:before { content: "\f12f"; }
+.flaticon-pause:before { content: "\f130"; }
+.flaticon-arrow:before { content: "\f131"; }
+.flaticon-click:before { content: "\f132"; }
+.flaticon-crop:before { content: "\f133"; }
+.flaticon-cursor:before { content: "\f134"; }
+.flaticon-scroll:before { content: "\f135"; }
+.flaticon-type:before { content: "\f136"; }
+.flaticon-press:before { content: "\f137"; }
+.flaticon-cursor-1:before { content: "\f138"; }
+.flaticon-ebook-1:before { content: "\f139"; }
+.flaticon-website:before { content: "\f13a"; }
+.flaticon-close-2:before { content: "\f13b"; }
+.flaticon-sum:before { content: "\f13c"; }
+.flaticon-minus:before { content: "\f13d"; }
+.flaticon-calculator:before { content: "\f13e"; }
+.flaticon-cancel:before { content: "\f13f"; }
+.flaticon-increment:before { content: "\f140"; }
+.flaticon-increasing-stocks-graphic:before { content: "\f141"; }
+.flaticon-homework:before { content: "\f142"; }
+.flaticon-power:before { content: "\f143"; }
+.flaticon-spreadsheet:before { content: "\f144"; }

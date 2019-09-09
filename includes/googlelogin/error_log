@@ -1,0 +1,2 @@
+[24-Sep-2015 22:32:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pyksaas/public_html/raprika/includes/googlelogin/google_login.php:61) in /home/pyksaas/public_html/raprika/includes/googlelogin/google_login.php on line 71
+[24-Sep-2015 22:32:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/pyksaas/public_html/raprika/includes/googlelogin/google_login.php:61) in /home/pyksaas/public_html/raprika/includes/googlelogin/google_login.php on line 71

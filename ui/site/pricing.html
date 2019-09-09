@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Teamerge</title>
+<!--Meta Tag-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keyword" content="">
+<meta name="Description" content="">
+<meta name="author" content="">
+<!--styles-->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<!--font -->
+<link href="css/font-awesome.css" type="text/css" rel="stylesheet" />
+<link href="css/font-awesome.min.css" type="text/css" rel="stylesheet" />
+<!--script-->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+<!---scrolling effects-->
+<link rel="stylesheet" type="text/css" href="effects/component.css" />
+<script src="effects/modernizr.custom.js"></script>
+<script src="js/modernizr.js"></script>
+<!-- Modernizr -->
+<!--favicon-->
+<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="faviconms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+<script>function centerModal() {
+    $(this).css('display', 'block');
+    var $dialog = $(this).find(".modal-dialog");
+    var offset = ($(window).height() - $dialog.height()) / 2;
+    // Center modal vertically in window
+    $dialog.css("margin-top", offset);
+}
+
+$('.modal').on('show.bs.modal', centerModal);
+$(window).on("resize", function () {
+    $('.modal:visible').each(centerModal);
+});
+</script>
+</head>
+<body>
+<div id="cbp-so-scroller" class="cbp-so-scroller">
+  <!--header start-->
+   <header class="header siteHeader navbar-fixed-top">
+    <div class="container">
+      <nav class="navbar bottomnav">
+        <div class="row">
+		<div class="col-md-5">
+          <div class="navbar-header">
+            <a class="navbar-brand nav_active col-xs-10" href="index.html"> <img src="images/logo.png" alt="logo" class="img-responsive"> </a>
+			
+			  <button type="button" class="navbar-toggle col-xs-2" data-toggle="collapse" data-target="#myNavbar"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
+			</div>
+			<div class="col-md-7">
+          <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+              <!--<li><a href="features.html">Features </a></li>-->
+              <li><a href="index.html">Home </a></li>
+              <li><a href="industries.html">Industries </a></li>
+              <li><a class="nav_active" href="pricing.html">Pricing </a></li>
+             <!-- <li><a href="customers.html">Customers </a></li>-->
+              <!--<li ><a href="blog.html">Blog </a></li>-->
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+		  </div>
+        </div>
+		</div>
+      </nav>
+    </div>
+  </header>
+  <!--header end-->
+  
+  <div class="container-fluid pricing " style="padding:0px;"> </div>
+  <!--about end-->
+  <section class="about-content  text-center ">
+    <div class="container">
+      <div class="row">
+        <!-- Pricing Table Start -->
+        <div class="container">
+          <div class="section-title text-center">
+            <h2>Our <span style="color: #ED6139;">Pricing</span></h2>
+          </div>
+          <section class="pricing-table">
+            <div class="divide-3 col-md-3 col-sm-6 col-xs-12 green-box">
+			  <h2 class="plan-name">Bronze</h2>
+			 
+			   <h2 class="price">500 USD <br><span>Per Month</span></h2>
+               <div class="desc-price">
+			     <ul>
+				<!-- <li><i class="fa fa-chevron-right" aria-hidden="true"></i> 1 month access</li>-->
+				  <li><i class="fa fa-chevron-right" aria-hidden="true"></i>Upto 25 users</li>
+				  
+				    <li><i class="fa fa-chevron-right" aria-hidden="true"></i>Enable upto 4 modules</li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i>Working hours support only</li>
+				 </ul>
+                 <div class="footer-price">
+			    <a class="buy">Contact Us</a>
+			   </div>
+			   </div>
+			   
+            </div>
+            
+            <div class="divide-3  col-md-3 col-sm-6 col-xs-12 blue-box">
+			  <h2 class="plan-name">Silver</h2>
+			   <h2 class="price">1800 USD <br><span> Per Month</span></h2>
+               <div class="desc-price">
+			     <ul>
+				 <!--<li><i class="fa fa-chevron-right" aria-hidden="true"></i> 1 month access</li>-->
+				  <li><i class="fa fa-chevron-right" aria-hidden="true"></i>Upto 100 users</li>
+				  
+				    <li><i class="fa fa-chevron-right" aria-hidden="true"></i>Enable upto 6 modules</li>
+                    <li><i class="fa fa-chevron-right" aria-hidden="true"></i>24x7 support</li>
+				 </ul>
+                 <div class="footer-price">
+			    <a class="buy">Contact Us</a>
+			   </div>
+			   </div>
+			   
+            </div>
+            
+            <div class="divide-3  col-md-3 col-sm-6 col-xs-12 orange-box">
+			  <h2 class="plan-name">Gold</h2>
+			   <h2 class="price">5000 USD<br><span> Per Month</span></h2>
+               <div class="desc-price">
+			     <ul>
+				  <li><i class="fa fa-chevron-right" aria-hidden="true"></i>Upto 400 USERS</li>
+				  <li><i class="fa fa-chevron-right" aria-hidden="true"></i>Enable all modules</li>
+				    <li><i class="fa fa-chevron-right" aria-hidden="true"></i>24x7 support</li>
+				 </ul>
+                 <div class="footer-price">
+			    <a class="buy">Contact Us</a>
+			   </div>
+			   </div>
+			   
+            </div>
+            
+            
+            
+            <div class="divide-3   col-md-3 col-sm-6 col-xs-12 dia-box">
+			  <h2 class="plan-name">Platinum</h2>
+			   <h2 class="price">10000 USD<br><span> Per Month</span></h2>
+               <div class="desc-price">
+			     <ul>
+				 <li><i class="fa fa-chevron-right" aria-hidden="true"></i>Upto 900 USERS</li>
+				  <li><i class="fa fa-chevron-right" aria-hidden="true"></i>Enable all modules</li>
+				  <li><i class="fa fa-chevron-right" aria-hidden="true"></i>24x7 support</li>
+				 </ul>
+                 <div class="footer-price">
+			    <a class="buy">Contact Us</a>
+			   </div>
+			   </div>
+			   
+            </div>
+            
+            
+          </section>
+        </div>
+        <!-- Pricing Table End -->
+      </div>
+    </div>
+  </section>
+  <!--footer-section-->
+  <div class="container">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-body login-form">
+            <div class="module form-module"> <a data-dismiss="modal" class="toggle"><i class="fa fa-times fa-close"></i></a>
+              <div class="form">
+                <h2>Login to your account</h2>
+                <form>
+                  <label>User Name</label>
+                  <input type="text" placeholder="Username"/>
+                  <label>Password</label>
+                  <input type="password" placeholder="Password"/>
+                  <button>Login</button>
+                </form>
+                <div class="text-center">
+                  <label class="password">Forgot your password? <a href="#">Click Here</a></label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="footer-bottom">
+    <div class="text-center copy container">
+      <div class="text">
+        <p>©2016 All Rights Reserved. <span style="color: #3E4095; font-weight: 400; cursor:pointer;">Teamerge</span></p>
+      </div>
+      <div class="text-center"> <a href="https://www.facebook.com/teamerge/" class="inline"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/InfoTeamerge" class="inline"><i class="fa fa-twitter"></i></a> <a href="https://www.pinterest.com/teamerge2529/" class="inline"><i class="fa fa-pinterest"></i></a> </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+ <span id="top-link-block" class="hidden">
+    <a href="#top" class="well well-sm2"  onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <i class="glyphicon glyphicon-chevron-up"></i> 
+    </a>
+</span><!-- /top-link-block -->
+  <!--footer-section end-->
+  <script src="effects/classie.js"></script>
+  <script src="effects/cbpScroller.js"></script>
+  <script src="effects/scoll.js"></script>
+  <script>
+new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+</script>
+  
+  
+  <script>
+$(function(){
+ var shrinkHeader = 50;
+  $(window).scroll(function() {
+    var scroll = getCurrentScroll();
+      if ( scroll >= shrinkHeader ) {
+           $('.header').addClass('shrink');
+        }
+        else {
+            $('.header').removeClass('shrink');
+        }
+  });
+function getCurrentScroll() {
+    return window.pageYOffset;
+    }
+});
+
+</script>
+
+ <script>
+    
+    // Only enable if the document has a long scroll bar
+// Note the window height + offset
+if ( ($(window).height() + 100) < $(document).height() ) {
+    $('#top-link-block').removeClass('hidden').affix({
+        // how far to scroll down before link "slides" into view
+        offset: {top:100}
+    });
+}
+    
+    </script>
+  <script src="js/main.js"></script>
+  <!-- Gem jQuery -->
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+   "name":"Name",
+   "deviceId":"Device Id",
+   "work_days":"Work Days",
+   "presents":"Presents",
+   "leaves":"Leaves",
+   "attendance_view":"Attendance View",
+   "a_total_checkin":"Total Checkin",
+   "a_total_checkout":"Total Checkout"
+   /*"":"",
+   "":"",
+   "":"",
+   "":"",
+   "":"",
+   "":"",
+   "":"",
+   "":"",
+   "":"",
+   "":"",
+   "":"",
+   "":"",
+   "":""*/
+
+   
+}

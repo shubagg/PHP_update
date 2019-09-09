@@ -1,0 +1,33 @@
+{
+   "ent_slug":"Please enter Slug",
+   "ent_icon":"Please enter Icon",
+   "ent_title":"الرجاء إدخال العنوان",
+   "ent_heading":"الرجاء إدخال عنوان للصفحة",
+   "ent_description":"الرجاء إدخال الوصف",
+   "exist_slug":"الخانة موجودة من قبل",
+   "cms":"cms",
+   "icon":"أيقونة",
+   "slug":"خانة",
+   "heading":"عنوان الصفحة",
+   "delete":"حذف",
+   "saves":"حفظ",
+   "al_arabia_Sting":"العربية",
+   "order_shipped":"تكلفة الطلب المرسل الإضافية %9 من ضريبة المبيعات في الدولة.",
+   "error":"خطأ",
+   "are_you_sure":"هل أنت متأكد؟?",
+   "copyright_creamat_com":"حق النشر 2015 Creamat.com ©",
+   "all_rights_reserved":"جميع الحقوق محفوظة",
+   "powered_by":"مشغل بواسطة",
+   "login":"تسجيل الدخول",
+   "better_check_yourself":"من الأفضل أن تجري فحصاً لنفسك، لا تبدو بخير",
+   "email":"البريد الإلكتروني",
+   "forgot_password":"نسيت كلمة المرور",
+   "remember_me":"تذكرني",   
+   "please_select_location":"الرجاء اختيار المكان",
+   "register":"التسجيل",
+   "re_password":"إعادة كلمة المرور:",
+   "subscribe_for_newsletter":"اشترك في خدمة النشرة الإخبارية:",
+    "save":"Save"
+
+   
+}

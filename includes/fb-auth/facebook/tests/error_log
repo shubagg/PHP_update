@@ -1,0 +1,14 @@
+[08-Jan-2015 06:35:59 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/opteam/public_html/ab_test/n/facebook/tests/FacebookCanvasLoginHelperTest.php on line 6
+[08-Jan-2015 13:36:07 Europe/Paris] PHP Warning:  require_once(/home4/opteam/public_html/ab_test/n/facebook/tests/../vendor/autoload.php): failed to open stream: No such file or directory in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php on line 5
+[08-Jan-2015 13:36:07 Europe/Paris] PHP Fatal error:  require_once(): Failed opening required '/home4/opteam/public_html/ab_test/n/facebook/tests/../vendor/autoload.php' (include_path='.:/opt/php54/lib/php') in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php on line 5
+[08-Jan-2015 13:40:44 Europe/Paris] PHP Fatal error:  Uncaught exception 'Facebook\FacebookSDKException' with message 'You must create a FacebookTestCredentials.php file from FacebookTestCredentials.php.dist' in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php:10
+Stack trace:
+#0 {main}
+  thrown in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php on line 10
+[08-Jan-2015 13:43:34 Europe/Paris] PHP Fatal error:  Class 'FacebookRequest' not found in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php on line 20
+[08-Jan-2015 13:43:37 Europe/Paris] PHP Fatal error:  Class 'FacebookRequest' not found in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php on line 20
+[08-Jan-2015 13:43:39 Europe/Paris] PHP Fatal error:  Class 'FacebookRequest' not found in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php on line 20
+[08-Jan-2015 13:43:56 Europe/Paris] PHP Fatal error:  Class 'FacebookRequest' not found in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php on line 24
+[08-Jan-2015 13:44:08 Europe/Paris] PHP Fatal error:  Class 'FacebookRequest' not found in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php on line 24
+[08-Jan-2015 13:44:11 Europe/Paris] PHP Fatal error:  Class 'FacebookRequest' not found in /home4/opteam/public_html/ab_test/n/facebook/tests/bootstrap.php on line 24
+[08-Jan-2015 06:44:58 America/Chicago] PHP Fatal error:  Class 'PHPUnit_Framework_TestCase' not found in /home4/opteam/public_html/ab_test/n/facebook/tests/GraphUserTest.php on line 7

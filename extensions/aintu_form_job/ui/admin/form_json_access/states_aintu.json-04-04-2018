@@ -1,0 +1,27 @@
+[
+  {
+    "default": "false",
+    "fieldContent": "Delhi",
+    "displayText": "Delhi"
+  },
+  {
+    "default": "false",
+    "fieldContent": "Maharashtra",
+    "displayText": "Maharashtra"
+  },
+  {
+    "default": "false",
+    "fieldContent": "Haryana",
+    "displayText": "Haryana"
+  },
+  {
+    "default": "false",
+    "fieldContent": "Karnataka",
+    "displayText": "Karnataka"
+  },
+  {
+    "default": "false",
+    "fieldContent": "West Bengal",
+    "displayText": "West Bengal"
+  }
+]

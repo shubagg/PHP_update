@@ -1,0 +1,55 @@
+[
+  {
+    "default": "false",
+    "fieldContent": "banglore",
+    "displayText": "Banglore"
+  },
+  {
+    "default": "false",
+    "fieldContent": "delhi",
+    "displayText": "Delhi"
+  },
+  {
+    "default": "false",
+    "fieldContent": "faridabad",
+    "displayText": "Faridabad"
+  },
+  {
+    "default": "false",
+    "fieldContent": "ghaziabad",
+    "displayText": "Ghaziabad"
+  },
+  {
+    "default": "false",
+    "fieldContent": "gurugram",
+    "displayText": "Gurugram"
+  },
+  {
+    "default": "false",
+    "fieldContent": "kolkata",
+    "displayText": "Kolkata"
+  },
+  {
+    "default": "false",
+    "fieldContent": "mumbai",
+    "displayText": "Mumbai"
+  },
+  {
+    "default": "false",
+    "fieldContent": "navi mumbai",
+    "displayText": "Navi Mumbai"
+  },
+  
+  {
+    "default": "false",
+    "fieldContent": "noida",
+    "displayText": "Noida"
+  },
+  {
+    "default": "false",
+    "fieldContent": "thane",
+    "displayText": "Thane"
+  }
+  
+  
+]
